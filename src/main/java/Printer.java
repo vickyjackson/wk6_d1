@@ -9,7 +9,7 @@ public class Printer {
         this.sheets = sheets;
     }
 
-    //
+    // print new sheets and toner values if there's enough sheets and toner
     public void print(int copies, int pages){
 
         int required_sheets = copies * pages;
