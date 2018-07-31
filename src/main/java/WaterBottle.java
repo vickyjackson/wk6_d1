@@ -1,11 +1,11 @@
 public class WaterBottle {
 
     // define variables
-    private int volume = 100;
+    private int volume;
 
     // constructor
     public WaterBottle(){
-        this.volume = volume;
+        this.volume = 100;
     }
 
     // subtract 10 from volume
